@@ -47,6 +47,7 @@
 - I am feeling very good
 - I am great
 - I'm good
+- 谁是世界上最美丽的女人
 
 ## intent:mood_unhappy
 - sad

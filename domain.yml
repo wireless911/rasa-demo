@@ -17,13 +17,13 @@ responses:
     image: https://i.imgur.com/nGF1K8f.jpg
   utter_did_that_help:
   - text: Did that help you?
-  utter_happy:
-  - text: Great, carry on!
   utter_goodbye:
   - text: Bye
   - text: 好的，再见啦
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_happy:
+  - text: 小饼干才是世界上最美丽的女人
 actions:
 - utter_greet
 - utter_cheer_up
