@@ -5,12 +5,18 @@
 - good morning
 - good evening
 - hey there
+- 你好
+- 在吗
+- 您好
 
 ## intent:goodbye
 - bye
 - goodbye
 - see you around
 - see you later
+- 拜拜
+- 再见
+- 我走了啊
 
 ## intent:affirm
 - yes
