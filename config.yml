@@ -1,6 +1,5 @@
 language: zh
 pipeline:
-- name: WhitespaceTokenizer
 - name: JiebaTokenizer
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
@@ -11,6 +10,7 @@ pipeline:
   max_ngram: 4
 - name: DIETClassifier
   epochs: 100
+- name: CRFEntityExtractor
 - name: EntitySynonymMapper
 - name: ResponseSelector
   epochs: 100
