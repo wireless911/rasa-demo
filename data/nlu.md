@@ -8,6 +8,9 @@
 - 你好
 - 在吗
 - 您好
+- 你是谁
+- 你是谁啊
+- 你好啊
 
 ## intent:goodbye
 - bye
@@ -17,6 +20,8 @@
 - 拜拜
 - 再见
 - 我走了啊
+- z再见
+- byebye
 
 ## intent:affirm
 - yes

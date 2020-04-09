@@ -11,8 +11,7 @@ intents:
 - bot_challenge
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  - text: 你好啊，我是智能客服机器人
+  - text: 哈哈，我是哥哥呀
   utter_cheer_up:
   - text: 'Here is something to cheer you up:'
     image: https://i.imgur.com/nGF1K8f.jpg
