@@ -60,6 +60,7 @@
 - not very good
 - extremely sad
 - so sad
+- 你只会说这一句吗
 
 ## intent:bot_challenge
 - are you a bot?
@@ -67,9 +68,7 @@
 - am I talking to a bot?
 - am I talking to a human?
 
-
-
-## intent: faq/ask_channels
+## intent:faq/ask_channels
 - What channels of communication does rasa support?
 - rasa都支持什么渠道
 - what channels do you support?
@@ -79,7 +78,7 @@
 - channels supported by Rasa
 - which messaging channels does rasa support?
 
-## intent: faq/ask_languages
+## intent:faq/ask_languages
 - what language does rasa support?
 - which language do you support?
 - which languages supports rasa
@@ -89,7 +88,7 @@
 - 我还可以用什么语言
 - 语言支持
 
-## intent: faq/ask_rasax
+## intent:faq/ask_rasax
 - I want information about rasa x
 - i want to learn more about Rasa X
 - what is rasa x?
