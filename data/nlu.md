@@ -66,3 +66,35 @@
 - are you a human?
 - am I talking to a bot?
 - am I talking to a human?
+
+
+
+## intent: faq/ask_channels
+- What channels of communication does rasa support?
+- rasa都支持什么渠道
+- what channels do you support?
+- 都支持什么通道
+- what chat channels does rasa uses
+- rasa使用什么通道
+- channels supported by Rasa
+- which messaging channels does rasa support?
+
+## intent: faq/ask_languages
+- what language does rasa support?
+- which language do you support?
+- which languages supports rasa
+- can I use rasa also for another laguage?
+- languages supported
+- rasa支持什么语言
+- 我还可以用什么语言
+- 语言支持
+
+## intent: faq/ask_rasax
+- I want information about rasa x
+- i want to learn more about Rasa X
+- what is rasa x?
+- Can you tell me about rasa x?
+- Tell me about rasa x
+- tell me what is rasa x
+- 我想要详细信息关于rasa x
+- 告诉我什么是rasa x

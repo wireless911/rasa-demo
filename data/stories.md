@@ -29,3 +29,7 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+  
+## Some question from FAQ
+* faq
+  - respond_faq
