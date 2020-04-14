@@ -32,4 +32,4 @@
 
 ## Some question from FAQ
 * faq
-	- respond_faq
+  - respond_faq
