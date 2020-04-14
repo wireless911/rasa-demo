@@ -61,6 +61,7 @@
 - extremely sad
 - so sad
 - 你只会说这一句吗
+- 你是大笨蛋吗
 
 ## intent:bot_challenge
 - are you a bot?
