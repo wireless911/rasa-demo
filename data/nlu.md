@@ -49,6 +49,7 @@
 - I am great
 - I'm good
 - 谁是世界上最美丽的女人
+- 哈哈
 
 ## intent:mood_unhappy
 - sad
@@ -63,6 +64,8 @@
 - so sad
 - 你只会说这一句吗
 - 你是大笨蛋吗
+- 我想吃火锅
+- 大笨蛋
 
 ## intent:bot_challenge
 - are you a bot?
