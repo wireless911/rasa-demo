@@ -9,7 +9,6 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
-- faq
 responses:
   utter_greet:
   - text: 哈哈，我是哥哥呀
