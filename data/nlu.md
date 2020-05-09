@@ -50,6 +50,8 @@
 - I'm good
 - 谁是世界上最美丽的女人
 - 哈哈
+- 谁才是世界上最美丽的女人
+- 谁是世界上最美的女人
 
 ## intent:mood_unhappy
 - sad
@@ -66,6 +68,7 @@
 - 你是大笨蛋吗
 - 我想吃火锅
 - 大笨蛋
+- 小龙虾
 
 ## intent:bot_challenge
 - are you a bot?
