@@ -52,6 +52,7 @@
 - 哈哈
 - 谁才是世界上最美丽的女人
 - 谁是世界上最美的女人
+- 小龙虾
 - 谁是世界上最美德女人
 
 ## intent:mood_unhappy
@@ -69,7 +70,6 @@
 - 你是大笨蛋吗
 - 我想吃火锅
 - 大笨蛋
-- 小龙虾
 
 ## intent:bot_challenge
 - are you a bot?
