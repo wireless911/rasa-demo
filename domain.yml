@@ -11,24 +11,35 @@ intents:
 - bot_challenge
 responses:
   utter_greet:
-  - text: 哈哈，我是哥哥呀
-  utter_cheer_up:
-  - text: 'Here is something to cheer you up:'
-    image: https://i.imgur.com/nGF1K8f.jpg
-  utter_did_that_help:
-  - text: Did that help you?
+  - text: 你好啊，我是你的专属人工智能客服
   utter_goodbye:
-  - text: Bye
+  - text: 拜拜
   - text: 好的，再见啦
-  utter_iamabot:
-  - text: I am a bot, powered by Rasa.
-  utter_happy:
-  - text: 小饼干才是世界上最美丽的女人
+  utter_thanks:
+  - text: 不用客气哦
+  - text: 不用谢呢
+  utter_activity_consultation:
+  - text: 活动咨询
+  - text: 欢迎咨询活动
+  utter_stores_query:
+  - text: 门店查询
+  utter_complaint_filing:
+  - text: 投诉咨询
+  utter_transfer_query:
+  - text: 物流查询
+  utter_certified_source_query:
+  - text: 正品渠道咨询
+  utter_special_group_query:
+  - text: 孕妇咨询
+
 actions:
 - utter_greet
-- utter_cheer_up
-- utter_did_that_help
-- utter_happy
 - utter_goodbye
-- utter_iamabot
+- utter_thanks
+- utter_activity_consultation
+- utter_stores_query
+- utter_complaint_filing
+- utter_transfer_query
+- utter_certified_source_query
+- utter_special_group_query
 - respond_faq
