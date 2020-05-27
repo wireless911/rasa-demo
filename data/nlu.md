@@ -351,7 +351,7 @@
 - Tell me about rasa x
 - tell me what is rasa x
 - 我想要详细信息关于rasa x
-- 告诉我什么是rasa 
+- 告诉我什么是rasa
 
 ## intent:activity_consultation
 - 12.12活动吗
@@ -1606,3 +1606,11 @@
 - 请问兰蔻紫色的水.怀孕可以用么？
 - 请问粉底液孕期可以用吗
 - 请问防晒的孕妇可以用吗
+
+## intent:unhappy
+- 果然是个傻子
+- 你是傻子吗
+- 不开心
+- 你是大笨蛋吗
+- 大笨蛋
+- 你只会说这一句吗

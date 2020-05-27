@@ -2,6 +2,7 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- unhappy
 - greet
 - goodbye
 - affirm
@@ -9,6 +10,17 @@ intents:
 - mood_great
 - mood_unhappy
 - bot_challenge
+- certified_source_query
+- transfer_query
+- complaint_filing
+- special_group_query
+- thanks
+- faq
+- stores_query
+- activity_consultation
+- faq/ask_languages
+- faq/ask_rasax
+- faq/ask_channels
 responses:
   utter_greet:
   - text: 你好啊，我是你的专属人工智能客服
@@ -31,7 +43,8 @@ responses:
   - text: 正品渠道咨询
   utter_special_group_query:
   - text: 孕妇咨询
-
+  utter_unhappy:
+  - text: 对不起，没有帮到你
 actions:
 - utter_greet
 - utter_goodbye
@@ -43,3 +56,4 @@ actions:
 - utter_certified_source_query
 - utter_special_group_query
 - respond_faq
+- utter_unhappy
