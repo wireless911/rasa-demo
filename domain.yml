@@ -2,25 +2,20 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
-- unhappy
-- greet
-- goodbye
-- affirm
-- deny
-- mood_great
-- mood_unhappy
-- bot_challenge
-- certified_source_query
-- transfer_query
-- complaint_filing
-- special_group_query
+- greetings
+- bye
 - thanks
-- faq
-- stores_query
-- activity_consultation
-- faq/ask_languages
-- faq/ask_rasax
-- faq/ask_channels
+- complaint_filing
+- order_query
+- order_cancel
+- order_transfer
+- order_return
+- members_register
+- members_login
+- members_query
+- members_lvl_expiration
+- members_rights
+
 responses:
   utter_greetings:
   - text: 你好啊，我是你的专属人工智能客服
@@ -51,18 +46,4 @@ responses:
   utter_members_rights:
   - text: 会员福利
 
-actions:
-- utter_greetings
-- utter_bye
-- utter_thanks
-- utter_complaint_filing
-- utter_order_query
-- utter_order_cancel
-- utter_transfer_query
-- utter_order_transfer
-- utter_order_return
-- utter_members_register
-- utter_members_login
-- utter_members_query
-- utter_members_lvl_expiration
-- utter_members_rights
+
