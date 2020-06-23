@@ -1,6 +1,7 @@
 language: zh
 pipeline:
 - name: JiebaTokenizer
+  dictionary_path: "cropus/jieba_user_dicts"
 - name: RegexFeaturizer
 - name: LexicalSyntacticFeaturizer
 - name: CountVectorsFeaturizer
