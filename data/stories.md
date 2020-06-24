@@ -22,3 +22,91 @@
 ## order_return
 * order_return
   - utter_order_return
+  
+## joint_agent_query
+* joint_agent_query
+  - joint_agent_query
+## order_cancel
+* order_cancel
+  - order_cancel
+## order_transfer
+* order_transfer
+  - order_transfer
+## order_return
+* order_return
+  - order_return
+## members_register
+* members_register
+  - members_register
+## members_login
+* members_login
+  - members_login
+## members_query
+* members_query
+  - members_query
+## members_lvl_expiration
+* members_lvl_expiration
+  - members_lvl_expiration
+## members_rights
+* members_rights
+  - members_rights
+## members_promotion
+* members_promotion
+  - members_promotion
+## members_info_update
+* members_info_update
+  - members_info_update
+## members_bind
+* members_bind
+  - members_bind
+## available_points_query
+* available_points_query
+  - available_points_query
+## expiring_soon_points
+* expiring_soon_points
+  - expiring_soon_points
+## gift_redemption_method
+* gift_redemption_method
+  - gift_redemption_method
+## gift_redemption_transfer
+* gift_redemption_transfer
+  - gift_redemption_transfer
+## stores_query
+* stores_query
+  - stores_query
+## certified_source_query
+* certified_source_query
+  - certified_source_query
+## activity_consultation
+* activity_consultation
+  - activity_consultation
+## lettering_service
+* lettering_service
+  - lettering_service
+## promotion_code
+* promotion_code
+  - promotion_code
+## product_capacity
+* product_capacity
+  - product_capacity
+## product_description
+* product_description
+  - product_description
+## product_nav
+* product_nav
+  - product_nav
+## product_price
+* product_price
+  - product_price
+## special_group_query
+* special_group_query
+  - special_group_query
+## gift_recommendation
+* gift_recommendation
+  - gift_recommendation
+## express_store_hose
+* express_store_hose
+  - express_store_hose
+## order_info_update
+* order_info_update
+  - order_info_update
