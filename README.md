@@ -14,3 +14,11 @@ docker build -t rasa/rasa-demo:v1 .
 ```
 docker run --name rasa-demo -d rasa/rasa-demo:v1
 ```
+
+
+# docker 构建actions镜像
+```
+docker build . -t <account_username>/<repository_name>:<custom_image_tag>
+eg:
+docker build . -t wireless911/rasa-demo:v1.0
+```

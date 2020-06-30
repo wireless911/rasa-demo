@@ -12,7 +12,7 @@
   - utter_complaint_filing
 ## order_query
 * order_query
-  - utter_order_query
+  - action_order_query
 ## order_cancel
 * order_cancel
   - utter_order_cancel

@@ -1,0 +1,15 @@
+version: '3.0'
+services:
+  rasa:
+    container_name: rasa
+    image: rasa/rasa:1.10.3-full
+    ports:
+      - 5005:5005
+    volumes:
+      - ./:/app
+    command:
+      - run
+  app:
+    container_name: app
+    image: wireless911/rasa-demo:v1.0
+    expose: 5055

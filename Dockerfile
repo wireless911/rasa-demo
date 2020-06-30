@@ -1,8 +1,20 @@
-FROM wireless911/jre-python:1.0
-WORKDIR /code
-RUN chmod 755 -R /code
-COPY requirements.txt /code/
-RUN pip install --upgrade pip \
-    && pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
-COPY . /code/
-ENTRYPOINT ["rasa", "run","-m " ,models","--enable-api","--log-file", out.log","--auth-token", thisismysecret"]
+# Extend the official Rasa SDK image
+FROM rasa/rasa-sdk:1.10.1
+
+# Use subdirectory as working directory
+WORKDIR /app
+
+# Copy any additional custom requirements, if necessary (uncomment next line)
+# COPY actions/requirements-actions.txt ./
+
+# Change back to root user to install dependencies
+USER root
+
+# Install extra requirements for actions code, if necessary (uncomment next line)
+# RUN pip install -r requirements-actions.txt
+
+# Copy actions folder to working directory
+COPY ./actions /app/actions
+
+# By best practices, don't run the code with root user
+USER 1001
