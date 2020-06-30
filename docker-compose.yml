@@ -12,4 +12,5 @@ services:
   app:
     container_name: app
     image: wireless911/rasa-demo:v1.0
-    expose: 5055
+    ports:
+      - 5055:5055
