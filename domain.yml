@@ -7,6 +7,32 @@ intents:
   - order_cancel
   - order_transfer
   - order_return
+  - joint_agent_query
+  - members_register
+  - members_login
+  - members_query
+  - members_lvl_expiration
+  - members_rights
+  - members_promotion
+  - members_info_update
+  - members_bind
+  - available_points_query
+  - expiring_soon_points
+  - gift_redemption_method
+  - gift_redemption_transfer
+  - stores_query
+  - certified_source_query
+  - activity_consultation
+  - lettering_service
+  - promotion_code
+  - product_capacity
+  - product_description
+  - product_nav
+  - product_price
+  - special_group_query
+  - gift_recommendation
+  - express_store_hose
+  - order_info_update
 responses:
   utter_greetings:
   - text: 你好啊，我是你的专属人工智能客服
@@ -78,7 +104,8 @@ responses:
     - text: 快递仓库
   utter_order_info_update:
     - text: 订单信息更新
-
+actions:
+  - express_store_hose
 
 session_config:
   session_expiration_time: 60

@@ -3,14 +3,18 @@ services:
   rasa:
     container_name: rasa
     image: rasa/rasa:1.10.3-full
+    restart: always
     ports:
       - 5005:5005
     volumes:
       - ./:/app
-    command:
-      - run
+    command: run --enable-api
+
   app:
     container_name: app
+    volumes:
+      - ./actions:/app/actions
+    restart: always
     image: wireless911/rasa-demo:v1.0
     ports:
       - 5055:5055

@@ -12,7 +12,7 @@
   - utter_complaint_filing
 ## order_query
 * order_query
-  - action_order_query
+  - utter_order_query
 ## order_cancel
 * order_cancel
   - utter_order_cancel
@@ -26,15 +26,7 @@
 ## joint_agent_query
 * joint_agent_query
   - utter_joint_agent_query
-## order_cancel
-* order_cancel
-  - utter_order_cancel
-## order_transfer
-* order_transfer
-  - utter_order_transfer
-## order_return
-* order_return
-  - utter_order_return
+
 ## members_register
 * members_register
   - utter_members_register
@@ -106,7 +98,7 @@
   - utter_gift_recommendation
 ## express_store_hose
 * express_store_hose
-  - utter_express_store_hose
+  - express_store_hose
 ## order_info_update
 * order_info_update
   - utter_order_info_update
