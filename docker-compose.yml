@@ -11,10 +11,12 @@ services:
     command: run --enable-api
 
   app:
-    container_name: app
+    container_name: actions
     volumes:
       - ./actions:/app/actions
     restart: always
-    image: wireless911/rasa-demo:v1.0
-    ports:
-      - 5055:5055
+    image: wireless911/rasa-demo:1.5
+#    ports:
+#      - 5055:5055
+    expose:
+      - 5055
