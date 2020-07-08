@@ -33,6 +33,7 @@ intents:
   - gift_recommendation
   - express_store_hose
   - order_info_update
+  - faq
 responses:
   utter_greetings:
   - text: 你好啊，我是你的专属人工智能客服
@@ -105,6 +106,7 @@ responses:
   utter_order_info_update:
     - text: 订单信息更新
 actions:
+  - respond_faq
   - express_store_hose
 
 session_config:
