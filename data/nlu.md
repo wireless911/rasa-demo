@@ -1,4 +1,4 @@
-## intent: faq/ask_websites
+## intent:faq/ask_websites
 - 官网
 - 怎么进官网
 - ysl官网网址是什么？
@@ -8,7 +8,7 @@
 - 麻烦提供一下官网网址。
 - 官网地址
 
-## intent: faq/ask_age
+## intent:faq/ask_age
 - 兰蔻几几年生产
 - 你到底多大了
 - 你多大
