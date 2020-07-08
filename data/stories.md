@@ -1,3 +1,6 @@
+## Some question from FAQ
+* faq
+    - respond_faq
 ## greetings
 * greetings
   - utter_greetings

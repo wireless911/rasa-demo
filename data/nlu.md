@@ -1,3 +1,13 @@
+## intent: faq/ask_websites
+- 官网
+- 怎么进官网
+- ysl官网网址是什么？
+- 可以发一些官网网址吗？
+- 官网网址是?
+- 我想查询一下官网网址。
+- 麻烦提供一下官网网址。
+- 官网地址
+
 ## intent:greetings
 - hello你还在吗？
 - hello嘿嘿
