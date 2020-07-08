@@ -1,4 +1,4 @@
-## intent: faq/ask_websites
+## intent:faq/ask_websites
 - 官网
 - 怎么进官网
 - ysl官网网址是什么？
