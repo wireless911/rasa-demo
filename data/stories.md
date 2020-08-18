@@ -3,105 +3,48 @@
     - respond_faq
 ## greetings
 * greetings
-  - utter_greetings
+  - greetings
+
 ## bye
 * bye
-  - utter_bye
+  - bye
+  
 ## thanks
 * thanks
-  - utter_thanks
-## complaint_filing
-* complaint_filing
-  - utter_complaint_filing
-## order_query
-* order_query
-  - utter_order_query
-## order_cancel
-* order_cancel
-  - utter_order_cancel
-## order_transfer
-* order_transfer
-  - utter_order_transfer
-## order_return
-* order_return
-  - utter_order_return
+  - thanks
   
-## joint_agent_query
-* joint_agent_query
-  - utter_joint_agent_query
-
-## members_register
-* members_register
-  - utter_members_register
-## members_login
-* members_login
-  - utter_members_login
-## members_query
-* members_query
-  - utter_members_query
-## members_lvl_expiration
-* members_lvl_expiration
-  - utter_members_lvl_expiration
-## members_rights
-* members_rights
-  - utter_members_rights
-## members_promotion
-* members_promotion
-  - utter_members_promotion
-## members_info_update
-* members_info_update
-  - utter_members_info_update
-## members_bind
-* members_bind
-  - utter_members_bind
-## available_points_query
-* available_points_query
-  - utter_available_points_query
-## expiring_soon_points
-* expiring_soon_points
-  - utter_expiring_soon_points
-## gift_redemption_method
-* gift_redemption_method
-  - utter_gift_redemption_method
-## gift_redemption_transfer
-* gift_redemption_transfer
-  - utter_gift_redemption_transfer
 ## stores_query
 * stores_query
-  - utter_stores_query
+  - stores_query
+  
 ## certified_source_query
 * certified_source_query
-  - utter_certified_source_query
+  - certified_source_query
+  
 ## activity_consultation
 * activity_consultation
-  - utter_activity_consultation
+  - activity_consultation
+
 ## lettering_service
 * lettering_service
-  - utter_lettering_service
+  - lettering_service
+
 ## promotion_code
 * promotion_code
-  - utter_promotion_code
-## product_capacity
-* product_capacity
-  - utter_product_capacity
-## product_description
-* product_description
-  - utter_product_description
-## product_nav
-* product_nav
-  - utter_product_nav
-## product_price
-* product_price
-  - utter_product_price
-## special_group_query
-* special_group_query
-  - utter_special_group_query
-## gift_recommendation
-* gift_recommendation
-  - utter_gift_recommendation
+  - promotion_code
+
+## joint_agent_query
+* joint_agent_query
+  - joint_agent_query
+  
+## complaint_filing
+* complaint_filing
+  - complaint_filing
+
+## artificial_service
+* artificial_service
+  - artificial_service
+  
 ## express_store_hose
 * express_store_hose
   - express_store_hose
-## order_info_update
-* order_info_update
-  - utter_order_info_update

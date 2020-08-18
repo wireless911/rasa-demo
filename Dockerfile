@@ -10,10 +10,10 @@ COPY requirements-actions.txt ./
 # Change back to root user to install dependencies
 USER root
 
-# Install extra requirements for actions code, if necessary (uncomment next line)
+# Install extra requirements for common code, if necessary (uncomment next line)
 RUN pip install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements-actions.txt
 
-# Copy actions folder to working directory
+# Copy common folder to working directory
 COPY ./actions /app/actions
 
 # By best practices, don't run the code with root user
