@@ -10,11 +10,11 @@
 # Server which runs your custom actions.
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
-#action_endpoint:
-#  url: "http://localhost:5055/webhook"
-
 action_endpoint:
-  url: http://actions:5055/webhook
+  url: "http://localhost:5055/webhook"
+
+#action_endpoint:
+#  url: http://actions:5055/webhook
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
@@ -45,17 +45,17 @@ action_endpoint:
 #  queue: queue
 tracker_store:
     type: redis
-    url: "redis"
+    url: localhost
     port: 6379
     db: 1
-    password: sy,LYe_DC.OnUvz
+    password: 123456
     use_ssl: false
 
 event_broker:
   type: pika
-  url: "rabbit"
-  username: user
-  password: Mg1aMucpAQvov5q
+  url: localhost
+  username: admin
+  password: 123456
   queues:
     - "rasa_production_events"
 

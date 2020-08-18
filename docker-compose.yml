@@ -1,15 +1,14 @@
 version: '3.0'
 services:
-  rasa:
-    container_name: rasa
-    image: rasa/rasa:1.10.3-full
-    restart: always
-    ports:
-      - 5005:5005
-    volumes:
-      - ./:/app
-    command: run --enable-api
-
+#  rasa:
+#    container_name: rasa
+#    image: rasa/rasa:1.10.3-full
+#    restart: always
+#    ports:
+#      - 5005:5005
+#    volumes:
+#      - ./:/app
+#    command: run --enable-api
   app:
     container_name: actions
     volumes:
