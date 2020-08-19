@@ -48,14 +48,14 @@ tracker_store:
     url: "redis"
     port: 6379
     db: 1
-    password: sy,LYe_DC.OnUvz
+    password: Qo7bjZsdLl6kV5j
     use_ssl: false
 
 event_broker:
   type: pika
   url: "rabbit"
   username: user
-  password: Mg1aMucpAQvov5q
+  password: 3rdpRFaztC,a230
   queues:
     - "rasa_production_events"
 
